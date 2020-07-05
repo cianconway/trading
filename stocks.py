@@ -2,7 +2,7 @@ import pandas as pd
 from alpha_vantage.timeseries import TimeSeries
 import time
 
-api_key = 'NXLN4QF9U7G9875O'
+api_key = ''
 
 ts = TimeSeries(key=api_key, output_format='pandas')
 data, metadata = ts.get_intraday(
